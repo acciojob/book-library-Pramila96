@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.book-library{
+	//background-color:red;
+	display:flex;
+	flex-flow:column wrap;
+	//align-items:center;
+	padding:50px;
+	gap:50px;
+}
+.book{
+display:flex;
+	flex-flow:column wrap;
+	align-items:center;
+}
+.price{
+	display:flex;
+	background-color:green;
+	justify-content:center;
+}
